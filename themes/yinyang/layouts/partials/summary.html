@@ -1,0 +1,5 @@
+{{ if .Description }}
+{{ .Description }}
+{{ else }}
+{{ .Summary | plainify | safeHTML }}
+{{ end }}
