@@ -3,6 +3,13 @@
   <div class="signatures site-title">
     <a href="{{ .LanguagePrefix }}/">{{ .Site.Title }}</a>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
+  <script>
+    var options = {
+      label: '🌓'
+    }
+    new Darkmode(options).showWidget();
+  </script>
 </header>
 <div class="row end-xs">
   {{ range .Site.Languages -}}
