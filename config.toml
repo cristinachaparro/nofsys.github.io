@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Alacena bajo la escalera"
+themesDir = "themes"
+theme = "yinyang"
+
+[author]
+  name = "Joway Wang"
+  homepage = "https://joway.io/"
+
+[params]
+
+[[params.socials]]
+name = "@nofsys"
+link = "https://twitter.com/nofsys"
